@@ -1,0 +1,40 @@
+{
+  "name": "udacity",
+  "version": "1.0.0",
+  "description": "Web Develoment on Audacity",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luillyfe/udacity.git"
+  },
+  "keywords": [
+    "Udacity",
+    "mocha",
+    "nodejs",
+    "angular"
+  ],
+  "author": "Fermin Blanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luillyfe/udacity/issues"
+  },
+  "homepage": "https://github.com/luillyfe/udacity#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.52"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.6.1"
+    },
+    "devDependencies": {}
+  }
+}
